@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ibne Sinha Hospital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Ibne Sinha Hospital](https://amazing-jennings-e60b6c.netlify.app/).
 
 ## Available Scripts
 
