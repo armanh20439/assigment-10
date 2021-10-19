@@ -1,0 +1,30 @@
+.menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #7952b3;
+ }
+
+ .logo{
+     color: white;
+ }
+.all-nav{
+    padding-top: 5px;
+}
+ 
+ 
+ .link{
+     padding-right: 30px;
+     text-decoration: none;
+     color: white;
+     font-weight: 700;
+ }
+ .sec-link{
+     background-color: coral;
+     text-decoration: none;
+     padding: 5px 15px;
+     border-radius: 5px;
+     color: white;
+     font-weight: 700;
+ 
+ }
+

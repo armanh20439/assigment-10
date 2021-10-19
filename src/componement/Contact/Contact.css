@@ -1,0 +1,20 @@
+
+.contact{
+    background-image: url('../../image/medium-shot-doctor-with-crossed-arms_23-2148868176.jpg');
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.text{
+    color: goldenrod;
+    padding: 50px;
+    border-bottom: 5px solid goldenrod;
+    margin-left:300px ;
+    margin-right: 300px;
+}
+.carts{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
