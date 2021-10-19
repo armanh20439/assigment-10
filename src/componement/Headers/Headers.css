@@ -16,3 +16,11 @@
 .captions{
     color: #004861;
 }
+
+
+@media only screen and (max-width: 425px){
+   .head-img{
+       width: 75%;
+       height: 75%;
+   }
+ }

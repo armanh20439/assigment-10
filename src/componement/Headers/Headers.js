@@ -14,7 +14,7 @@ const Headers = () => {
         <Carousel>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 img"
+                    className="d-block w-100 img head-img"
                     src={img1}
                     alt="First slide"
                 />
@@ -28,7 +28,7 @@ const Headers = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 img"
+                    className="d-block w-100 img head-img"
                     src={img2}
                     alt="Second slide"
                 />
@@ -40,7 +40,7 @@ const Headers = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 img"
+                    className="d-block w-100 img head-img"
                     src={img3}
                     alt="Third slide"
                 />

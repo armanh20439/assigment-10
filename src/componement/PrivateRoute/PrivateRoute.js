@@ -5,10 +5,10 @@ import useAuth from './../../hooks/useAuth';
 
 const PrivateRoute = ({ children, ...rest }) => {
     // const {children, ...rest} = props;
-    const { user,loading } = useAuth();
-    if(loading){
-        return <Spinner animation="border" variant="success" />
-    }
+    const { user } = useAuth();
+    // if(loading){
+    //     return <Spinner animation="border" variant="success" />
+    // }
     return (
         <Route
             {...rest}

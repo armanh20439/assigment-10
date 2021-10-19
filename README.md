@@ -2,7 +2,10 @@
 
 This project was bootstrapped with [Ibne Sinha Hospital](https://amazing-jennings-e60b6c.netlify.app/).
 
-## Available Scripts
+## This web site is Know about our hospital
+1.you know about This hospital
+2.if you new here pls sinup
+3. you have account pls login
 
 In the project directory, you can run:
 

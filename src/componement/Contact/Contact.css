@@ -18,3 +18,17 @@
     margin-right: 10%;
     padding: 20px;
 }
+
+@media only screen and (max-width: 425px){
+    .text{
+      
+        margin-left:20px ;
+        margin-right: 20px;
+    }
+    .contact{
+       height: 600px; 
+    }
+    .carts{
+        margin-top: 10px;
+    }
+  }

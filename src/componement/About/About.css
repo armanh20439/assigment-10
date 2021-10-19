@@ -10,5 +10,21 @@
 }
 
 .cards{
-margin-top: 200px;
+padding: 100px;
+
 }
+
+
+
+@media only screen and (max-width: 425px){
+    .cards{
+        padding: 0px;
+    }
+    .about-bg{
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+    .about{
+        padding: 80px;
+    }
+  }

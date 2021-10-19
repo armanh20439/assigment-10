@@ -33,3 +33,11 @@ width: 150px;
 .btn:hover{
     box-shadow: 5px 5px 5px grey;
 }
+
+
+
+@media only screen and (max-width: 425px){
+    .btn{
+        width: 100px;
+    }
+  }

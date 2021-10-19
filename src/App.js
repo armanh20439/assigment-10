@@ -4,7 +4,7 @@ import Navbar from './componement/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-import Headers from './componement/Headers/Headers';
+
 import Services from './componement/Services/Services';
 import Error from './componement/Error/Error';
 import Contact from './componement/Contact/Contact';
@@ -26,6 +26,9 @@ function App() {
         <Route exact  path='/'>
         <Home></Home>
         </Route>
+        <Route exact  path='/services'>
+        <Services></Services>
+        </Route>
         <Route exact  path='/home'>
         <Home></Home>
         </Route>
@@ -33,16 +36,14 @@ function App() {
         <Login></Login>
         </Route>
 
-        <PrivateRoute exact path='/services'>
-        <Services></Services>
-        </PrivateRoute>
+      
         <PrivateRoute exact path='/details/:doctorId'>
         <Details></Details>
         </PrivateRoute>
 
-        <Route exact path='/contact'>
+        <PrivateRoute exact path='/contact'>
         <Contact></Contact>
-        </Route>
+        </PrivateRoute>
         <Route exact path='/about'>
         <About></About>
         </Route>

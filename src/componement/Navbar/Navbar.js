@@ -8,10 +8,10 @@ import useAuth from '../../hooks/useAuth';
 const Navbar = () => {
     const { user, logOut } = useAuth();
     return (
-        <div className='d-flex justify-content-around menu'>
-            <div >
+        <div className=' justify-content-around menu'>
+          
      <h2 className='logo'>Ibne sinha hosptal</h2>
-            </div>
+           
             <div className='all-nav'>
                 <Link className='link' to='/home'>Home </Link>
                 <Link className=' link' to='/services'>Services</Link>
