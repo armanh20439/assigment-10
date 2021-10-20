@@ -11,7 +11,7 @@ const Headers = () => {
   
     return (
         <>
-        <Carousel>
+        <Carousel className='carosal'>
             <Carousel.Item>
                 <img
                     className="d-block w-100 img head-img"

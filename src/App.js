@@ -35,8 +35,6 @@ function App() {
         <Route exact  path='/login'>
         <Login></Login>
         </Route>
-
-      
         <PrivateRoute exact path='/details/:doctorId'>
         <Details></Details>
         </PrivateRoute>
@@ -49,13 +47,7 @@ function App() {
         </Route>
         <Route exact path='*'>
         <Error></Error>
-
         </Route>
-
-
-      
-      
-     
       </Switch>
       <Footer></Footer>
       </Router>

@@ -18,9 +18,47 @@
 }
 
 
+
+
+
+ @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+  .img{
+    height: 400px;
+    
+}
+
+}
+ @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+   
+    .img{
+        height: 350px;
+        
+    }
+    p{
+       font-size: 0.5rem;
+    }
+    .captions{
+        font-size: .8rem;
+    }
+}
+
+
+
 @media only screen and (max-width: 425px){
-   .head-img{
-       width: 75%;
-       height: 75%;
-   }
- }
+    .img{
+        height: 250px;
+        width: 100%;
+        
+    }
+    p{
+        font-size: .3rem;
+    }
+    .carosal{
+        margin-top: 10px;
+    }
+    .captions{
+        font-size: .5rem;
+    }
+  }

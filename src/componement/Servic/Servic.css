@@ -36,8 +36,45 @@ width: 150px;
 
 
 
+
+
+
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .item{
+        
+    
+        padding: 5px;
+        margin-left: -5px;
+        margin-right: -5px;
+       
+        
+    }
+
+
+}
+ @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .item{
+     
+        margin-left: -70px;
+        margin-right: -70px;
+     
+    }
+   
+}
+
+
 @media only screen and (max-width: 425px){
     .btn{
         width: 100px;
+        
     }
+    .item{
+     
+        margin-left: -60px;
+        margin-right: -60px;
+     
+    }
+    
   }

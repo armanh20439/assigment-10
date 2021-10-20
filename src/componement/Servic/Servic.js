@@ -6,7 +6,7 @@ const Servic = ({doctor}) => {
   const {id,name,specialist,qualifications,img,description}=doctor;
     return (
         
-        <div className="col  ">
+        <div className="col-lg-4 col-md-6  ">
     <div className=" card  item ">
       <img className=' p-3 card-img ' src={img}  alt="..."/>
       <div className="card-body">

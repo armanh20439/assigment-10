@@ -1,7 +1,7 @@
 
 .contact{
     background-image: url('../../image/medium-shot-doctor-with-crossed-arms_23-2148868176.jpg');
-    height: 600px;
+    /* height: 600px; */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -17,7 +17,35 @@
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
+    padding-bottom: 100px;
 }
+
+
+
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .text{
+        font-size: .5rem;
+        margin-left:150px ;
+    margin-right: 150px;
+    padding: 20px;
+    }
+   
+
+}
+ @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .text{
+        font-size: .5rem;
+        margin-left:150px ;
+    margin-right: 150px;
+    padding: 20px;
+    }
+   
+    
+}
+
+
 
 @media only screen and (max-width: 425px){
     .text{
@@ -32,3 +60,4 @@
         margin-top: 10px;
     }
   }
+

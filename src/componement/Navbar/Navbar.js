@@ -19,11 +19,12 @@ const Navbar = () => {
                 <Link className=' link' to='/contact'>Contact Us</Link>
                 
                 
-                <span className='text-info'>{user.displayName}
-                
-                 </span>
+               
                
             {user?.email ? <button className=' sec-link'  onClick={logOut}>log out</button>:<Link className=' sec-link' to='/login'>Log in</Link>}
+            <span className='text-info ps-3'>{user.displayName}
+                
+                </span>
                 
 
             </div>

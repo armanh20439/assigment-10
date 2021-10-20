@@ -24,22 +24,22 @@ const Home = () => {
                    <div className='col-md-3 text-light'>
                    <img src={img1} alt=''/>
                    <h4 className='text-info'>Nephrologist Care </h4>
-                   <p>Tell me why, I love you like I do. Tell me who, could stop my...</p>
+                   <p>Tell me why, I love you like I do. Tell me who, could s...</p>
                    </div>
                    <div className='col-md-3 text-light'>
                    <img src={img2} alt=''/>
-                   <h4 className='text-info'>Nephrologist Care </h4>
-                   <p>Tell me why, I love you like I do. Tell me who, could stop my...</p>
+                   <h4 className='text-info'>HEALTHCARE  </h4>
+                   <p>Proin lobortis tempus odio eget venenatis. ...</p>
                    </div>
                    <div className='col-md-3 text-light'>
                    <img src={img3} alt=''/>
-                   <h4 className='text-info'>Nephrologist Care </h4>
-                   <p>Tell me why, I love you like I do. Tell me who, could stop my...</p>
+                   <h4 className='text-info'>ADVANCED TECHNOLOGY </h4>
+                   <p>Tell me why, I love you like I do. Tell me who, ...</p>
                    </div>
                    <div className='col-md-3 text-light'>
                    <img src={img4} alt=''/>
                    <h4 className='text-info'>Nephrologist Care </h4>
-                   <p>Tell me why, I love you like I do. Tell me who, could stop my...</p>
+                   <p>Proin fermentum ut massa at bibendum....</p>
                    </div>
                    
                 </div>
